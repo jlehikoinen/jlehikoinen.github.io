@@ -43,3 +43,5 @@ Applications/Utilities/Adobe Flash Player Install Manager.app/Contents
 Discard all Adobe Flash Player recipe data:
 
 `$ sudo pkgutil --forget com.adobe.pkg.FlashPlayer`
+
+---
