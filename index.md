@@ -3,8 +3,6 @@ Technical Notes Stashed
 
 > Personal archive of OS X, iOS, Docker, Unix etc. notes
 
-[gimmick:TwitterFollow](@fatmrcrab)
-
 Command line
 ------------
 
@@ -39,8 +37,3 @@ Swift
 -----
 
 * [Swift REPL in Docker container (GitHub)](https://github.com/jlehikoinen/swift-repl)
-
-Comments
---------
-
-[gimmick:Disqus](trrt)
