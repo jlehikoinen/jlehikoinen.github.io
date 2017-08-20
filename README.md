@@ -1,4 +1,3 @@
 # jlehikoinen.github.io
 
-trrt.me moved here
-
+https://jlehikoinen.github.io
