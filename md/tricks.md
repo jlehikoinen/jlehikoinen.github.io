@@ -280,8 +280,3 @@ $ xmllint --format original.mobileconfig > modified.mobileconfig
 ```
 
 ---
-
-Comments
---------
-
-[gimmick:Disqus](trrt)

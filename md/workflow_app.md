@@ -80,7 +80,4 @@ Actions:
 
 Link to workflow: [Burst as GIF to Dropbox (Shared)](https://workflow.is/workflows/8275c7ad6a6d4f7abc0d2ad3592cea5e)
 
-Comments
---------
-
-[gimmick:Disqus](trrt)
+---

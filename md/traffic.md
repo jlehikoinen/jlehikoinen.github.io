@@ -49,7 +49,4 @@ Notification example:
 
 For testing purposes it might be a good idea to add more popular search term like "Kehä I" or "Helsinki" to the recipe to receive test notifications.
 
-Comments
---------
-
-[gimmick:Disqus](trrt)
+---

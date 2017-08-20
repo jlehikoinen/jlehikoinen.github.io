@@ -76,8 +76,3 @@ $ HandBrakeCLI -i source.mov -o target.mov --preset="High Profile" --rotate="ang
 ```
 
 ---
-
-Comments
---------
-
-[gimmick:Disqus](trrt)

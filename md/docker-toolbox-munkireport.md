@@ -218,8 +218,3 @@ Additional information
 Check out [Calum Hunter's GitHub page](https://github.com/hunty1/munkireport-docker) for more info if you want to tinker with MunkiReport container settings.
 
 ---
-
-Comments
---------
-
-[gimmick:Disqus](trrt)

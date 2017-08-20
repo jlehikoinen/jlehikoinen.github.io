@@ -26,8 +26,3 @@ Collection of various Apple Links.
 [OS X Server Support](https://www.apple.com/support/osxserver/)
 
 ---
-
-Comments
---------
-
-[gimmick:Disqus](trrt)

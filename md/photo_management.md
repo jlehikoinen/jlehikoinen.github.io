@@ -122,8 +122,3 @@ If you don't like Dropbox, it can be easily replaced basically with any cloud st
 - Unbound is not universal app
 
 ---
-
-Comments
---------
-
-[gimmick:Disqus](trrt)
