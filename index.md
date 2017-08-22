@@ -21,13 +21,6 @@ iOS
 * [Finnish Traffic Notifications](./md/traffic.md)
 * [Workflows](./md/workflow_app.md)
 
-Misc
-----
-
-* [Photo Management](./md/photo_management.md)
-* [Utilizing Git in Mac Admin Chores](./md/utilizing_git_admin_chores.md)
-* [Apple Links](./md/apple_links.md)
-
 OS X
 ----
 
@@ -37,5 +30,18 @@ Swift
 -----
 
 * [Swift REPL in Docker container (GitHub)](https://github.com/jlehikoinen/swift-repl)
+
+Misc
+----
+
+* [Photo Management](./md/photo_management.md)
+* [Apple Links](./md/apple_links.md)
+
+FinMacAdmin events
+-----
+
+* [Utilizing Git in Mac Admin Chores](./md/utilizing_git_admin_chores.md)
+* [FinMacAdmin](https://github.com/macadminfi/finmacadmin2017)
+
 
 ---
