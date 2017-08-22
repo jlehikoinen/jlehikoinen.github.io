@@ -23,11 +23,11 @@ Note! The screenshots below are from IFTTT website, on iOS app the Recipe editor
 
 Edit Recipe Title to match your search parameters:
 
-![IFTTT](https://dl.dropboxusercontent.com/u/3972607/trrt.me/traffic/ifttt1.png)
+![IFTTT](../pics/traffic/ifttt1.png)
 
 Replace `"Tie 4"` placeholder search parameter with your own search keyword(s).
 
-![IFTTT](https://dl.dropboxusercontent.com/u/3972607/trrt.me/traffic/ifttt2.png)
+![IFTTT](../pics/traffic/ifttt2.png)
 
 Click the **Update** button to save your changes.
 
@@ -39,11 +39,11 @@ Check out this [article](https://support.twitter.com/articles/71577?lang=en) for
 
 You can adjust how notifications are displayed on your iPhone in Settings > Notifications > IF:
 
-![iOS Notifications Settings](https://dl.dropboxusercontent.com/u/3972607/trrt.me/traffic/ios-notification-settings.png)
+![iOS Notifications Settings](../pics/traffic/ios-notification-settings.png)
 
 Notification example:
 
-![iOS Notification](https://dl.dropboxusercontent.com/u/3972607/trrt.me/traffic/ios-notification.png)
+![iOS Notification](../pics/traffic/ios-notification.png)
 
 ### Considerations
 

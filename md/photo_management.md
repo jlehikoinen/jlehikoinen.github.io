@@ -52,7 +52,7 @@ The folder tree naming system is basically designed for [Unbound](https://itunes
 - ja = and
 - videot = videos
 
-![Directory tree](https://dl.dropboxusercontent.com/u/3972607/trrt.me/photo_management/dirtree.png)
+![Directory tree](../pics/photo_management/dirtree.png)
 
 ### iOS apps
 
@@ -87,7 +87,7 @@ There are plenty of options how to share files with Dropbox or Unbound. Share a 
 
 If you have opted out using iCloud Photo Library or Photo Stream (like I have), you can still use iCloud sharing with friends or family members who have iOS devices. Here are my Photos & Camera settings:
 
-![iOS Photos & Camera settings](https://dl.dropboxusercontent.com/u/3972607/trrt.me/photo_management/ios-photo-settings.png)
+![iOS Photos & Camera settings](../pics/photo_management/ios-photo-settings.png)
 
 ### Backups
 
