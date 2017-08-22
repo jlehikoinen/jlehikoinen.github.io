@@ -37,11 +37,11 @@ Misc
 * [Photo Management](./md/photo_management.md)
 * [Apple Links](./md/apple_links.md)
 
-FinMacAdmin events
+FinMacAdmin material
 -----
 
 * [Utilizing Git in Mac Admin Chores](./md/utilizing_git_admin_chores.md)
-* [FinMacAdmin](https://github.com/macadminfi/finmacadmin2017)
+* [FinMacAdmin 2017](https://github.com/macadminfi/finmacadmin2017)
 
 
 ---
