@@ -1,7 +1,7 @@
 Command line stash
 ==================
 
-_Updated: 05.03.2017_
+_Updated: 04.09.2017_
 
 Tricks & one-liners
 -------------------
@@ -217,14 +217,30 @@ $ ping 224.0.0.1
 
 List top 10 user names used in SSH break-in attempts:
 
+macOS 10.12+:
+
+```bash
+$ log show --info --last 24h | grep -o "Invalid user.*" | awk '{print $3}' | sort | uniq -c | sort -nr | head -10
+```
+
+macOS 10.11 and earlier:
+
 ```bash
 $ grep -o "Invalid user.*" /var/log/system.log | awk '{print $3}' | sort | uniq -c | sort -nr | head -10
 ```
 
 List successful SSH logins using public key method:
 
+macOS 10.12+:
+
 ```bash
-$ grep "Accepted publickey" /var/log/system.log
+$ log show --info --last 24h | grep -o "Invalid user.*" | awk '{print $3}' | sort | uniq -c | sort -nr | head -10
+```
+
+macOS 10.11 and earlier:
+
+```bash
+$ log show --info --last 24h | grep "Accepted publickey"
 ```
 
 ---
