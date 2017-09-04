@@ -165,6 +165,38 @@ Some youtube video (episode 1)-RiTAdApC5-Y.mp4 => Some youtube video (episode 1)
 
 ---
 
+### SSH
+
+List top 10 user names used in SSH break-in attempts:
+
+_macOS 10.12+_
+
+```bash
+$ log show --info --last 24h | grep -o "Invalid user.*" | awk '{print $3}' | sort | uniq -c | sort -nr | head -10
+```
+
+_macOS 10.11 and earlier_
+
+```bash
+$ grep -o "Invalid user.*" /var/log/system.log | awk '{print $3}' | sort | uniq -c | sort -nr | head -10
+```
+
+List successful SSH logins using public key method:
+
+_macOS 10.12+_
+
+```bash
+$ log show --info --last 24h | grep -o "Invalid user.*" | awk '{print $3}' | sort | uniq -c | sort -nr | head -10
+```
+
+_macOS 10.11 and earlier_
+
+```bash
+$ log show --info --last 24h | grep "Accepted publickey"
+```
+
+---
+
 ### Misc
 
 Current SSID name:
@@ -211,36 +243,6 @@ Use multicast address to find out all multicast capable hosts:
 
 ```bash
 $ ping 224.0.0.1
-```
-
----
-
-List top 10 user names used in SSH break-in attempts:
-
-macOS 10.12+:
-
-```bash
-$ log show --info --last 24h | grep -o "Invalid user.*" | awk '{print $3}' | sort | uniq -c | sort -nr | head -10
-```
-
-macOS 10.11 and earlier:
-
-```bash
-$ grep -o "Invalid user.*" /var/log/system.log | awk '{print $3}' | sort | uniq -c | sort -nr | head -10
-```
-
-List successful SSH logins using public key method:
-
-macOS 10.12+:
-
-```bash
-$ log show --info --last 24h | grep -o "Invalid user.*" | awk '{print $3}' | sort | uniq -c | sort -nr | head -10
-```
-
-macOS 10.11 and earlier:
-
-```bash
-$ log show --info --last 24h | grep "Accepted publickey"
 ```
 
 ---
