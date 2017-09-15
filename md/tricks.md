@@ -79,9 +79,17 @@ k=0; while read line; do let k+=1; echo $line | awk -v FS=- -v OFS= '{print $3,$
 
 ---
 
-### Replace Windows line feeds with UNIX line feeds
+### Vim tricks
 
-In Vim type:
+Replace tabs with spaces:
+
+```bash
+:set list
+:set tabstop=4 shiftwidth=4 expandtab
+:retab
+```
+
+Replace Windows line feeds with UNIX line feeds:
 
 ```bash
 :%s/^M/\r/g
