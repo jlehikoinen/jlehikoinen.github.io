@@ -202,7 +202,7 @@ List successful SSH logins using public key method:
 _macOS 10.12+_
 
 ```bash
-$ log show --info --last 24h | grep -o "Invalid user.*" | awk '{print $3}' | sort | uniq -c | sort -nr | head -10
+$ log show --info --last 24h | grep "Accepted publickey"
 ```
 
 _macOS 10.11 and earlier_
