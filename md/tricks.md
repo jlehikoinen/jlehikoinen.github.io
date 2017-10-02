@@ -183,6 +183,14 @@ Some youtube video (episode 1)-RiTAdApC5-Y.mp4 => Some youtube video (episode 1)
 
 ### SSH
 
+Generate RSA key pair for SSH:
+
+```bash
+$ ssh-keygen -t rsa -b 4096 -f path/to/<some>.key -C "<description>"
+```
+
+---
+
 List top 10 user names used in SSH break-in attempts:
 
 _macOS 10.12+_
@@ -305,7 +313,7 @@ $ cat /var/log/apache2/access_log | awk '{print $2}' | sort | uniq -c | wc -l
 
 ---
 
-List OS X installer package bill of materials:
+List macOS installer package bill of materials:
 
 ```bash
 $ lsbom -p MUGsf /path/to/Archive.bom
@@ -323,14 +331,6 @@ Show used disk space on boot volume (total):
 
 ```bash
 $ df -h / | awk 'NR > 1 {print $3}'
-```
-
----
-
-Generate RSA key pair for SSH:
-
-```bash
-$ ssh-keygen -t rsa -b 4096 -f path/to/<some>.key -C "<description>"
 ```
 
 ---
