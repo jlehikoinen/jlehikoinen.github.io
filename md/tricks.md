@@ -1,7 +1,7 @@
 Command line stash
 ==================
 
-_Updated: 04.09.2017_
+_Updated: 02.10.2017_
 
 Tricks & one-liners
 -------------------
@@ -218,7 +218,7 @@ $ log show --info --last 24h | grep "Accepted publickey"
 Strip code signing information from profile:
 
 ```bash
-$ /usr/bin/security cms -D -i Signed.mobileconfig -o Unsigned.mobileconfig
+$ security cms -D -i Signed.mobileconfig -o Unsigned.mobileconfig
 ```
 
 Ignore warning message:
@@ -236,7 +236,7 @@ $ xmllint --format original.mobileconfig > modified.mobileconfig
 Combined:
 
 ```bash
-$ /usr/bin/security cms -D -i Signed.mobileconfig | xmllint --format - > Unsigned.mobileconfig
+$ security cms -D -i Signed.mobileconfig | xmllint --format - > Unsigned.mobileconfig
 ```
 
 ---
