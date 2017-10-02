@@ -208,7 +208,7 @@ $ log show --info --last 24h | grep -o "Invalid user.*" | awk '{print $3}' | sor
 _macOS 10.11 and earlier_
 
 ```bash
-$ log show --info --last 24h | grep "Accepted publickey"
+$ grep "Accepted publickey" /var/log/system.log
 ```
 
 ---
