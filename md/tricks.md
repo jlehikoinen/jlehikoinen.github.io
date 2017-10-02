@@ -213,6 +213,34 @@ $ log show --info --last 24h | grep "Accepted publickey"
 
 ---
 
+### Apple Configuration Profile mangling
+
+Strip code signing information from profile:
+
+```bash
+$ /usr/bin/security cms -D -i Signed.mobileconfig -o Unsigned.mobileconfig
+```
+
+Ignore warning message:
+
+```
+security: SecPolicySetValue: One or more parameters passed to a function were not valid.
+```
+
+Reindent a xml/plist/mobileconfig file:
+
+```bash
+$ xmllint --format original.mobileconfig > modified.mobileconfig
+```
+
+Combined:
+
+```bash
+$ /usr/bin/security cms -D -i Signed.mobileconfig | xmllint --format - > Unsigned.mobileconfig
+```
+
+---
+
 ### Misc
 
 Current SSID name:
@@ -303,14 +331,6 @@ Generate RSA key pair for SSH:
 
 ```bash
 $ ssh-keygen -t rsa -b 4096 -f path/to/<some>.key -C "<description>"
-```
-
----
-
-Reindent a xml/plist/mobileconfig file:
-
-```bash
-$ xmllint --format original.mobileconfig > modified.mobileconfig
 ```
 
 ---
