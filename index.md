@@ -21,7 +21,7 @@ iOS
 * [Finnish Traffic Notifications](./md/traffic.md)
 * [Workflows](./md/workflow_app.md)
 
-OS X
+macOS
 ----
 
 * [pkgutil](./md/pkgutil.md)
