@@ -142,7 +142,8 @@ Sample output:
 Copy GoPro photos & videos from the past 7 days to Dropbox Camera Uploads folder:
 
 ```bash
-$ find ~/Pictures/GoPro/ -mtime -7 \( -iname "*.MP4" -o -iname "*.JPG" \) -exec cp -pvn {} ~/Dropbox/Camera\ Uploads \;```
+$ find ~/Pictures/GoPro/ -mtime -7 \( -iname "*.MP4" -o -iname "*.JPG" \) -exec cp -pvn {} ~/Dropbox/Camera\ Uploads \;
+```
 
 ---
 
