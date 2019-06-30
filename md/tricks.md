@@ -107,7 +107,7 @@ Replace Windows line feeds with UNIX line feeds:
 
 ### Finding recently created or edited files
 
-Find last 5 photos & videos imported from Nikon (DSC_XXXX.JPG|MOV):
+Find last 5 photos & videos imported from Nikon (DSC_XXXX.JPG/MOV):
 
 ```bash
 $ find . -type f -name "DSC_*" -print0 | xargs -0 stat -f "%m %Sm %SN" -t "%d.%m.%Y %H:%M" | sort -nr | cut -d " " -f 2- | head -5
@@ -141,7 +141,8 @@ Sample output:
 
 Copy GoPro photos & videos from the past 7 days to Dropbox Camera Uploads folder:
 
-```bash find ~/Pictures/GoPro/ -mtime -7 \( -iname "*.MP4" -o -iname "*.JPG" \) -exec cp -pvn {} ~/Dropbox/Camera\ Uploads \;```
+```bash
+$ find ~/Pictures/GoPro/ -mtime -7 \( -iname "*.MP4" -o -iname "*.JPG" \) -exec cp -pvn {} ~/Dropbox/Camera\ Uploads \;```
 
 ---
 
