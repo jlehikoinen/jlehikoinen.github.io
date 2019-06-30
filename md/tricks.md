@@ -1,7 +1,7 @@
 Command line stash
 ==================
 
-_Updated: 02.10.2017_
+_Updated: 30.06.2019_
 
 Tricks & one-liners
 -------------------
@@ -138,6 +138,10 @@ Sample output:
 15.03.2015 12:10 ./path/to/2.txt
 ...
 ```
+
+Copy GoPro photos & videos from the past 7 days to Dropbox Camera Uploads folder:
+
+```bash find ~/Pictures/GoPro/ -mtime -7 \( -iname "*.MP4" -o -iname "*.JPG" \) -exec cp -pvn {} ~/Dropbox/Camera\ Uploads \;```
 
 ---
 
