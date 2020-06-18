@@ -1,7 +1,7 @@
 Command line stash
 ==================
 
-_Updated: 30.06.2019_
+_Updated: 18.06.2020_
 
 Tricks & one-liners
 -------------------
@@ -192,7 +192,7 @@ Some youtube video (episode 1)-RiTAdApC5-Y.mp4 => Some youtube video (episode 1)
 Generate RSA key pair for SSH:
 
 ```bash
-$ ssh-keygen -t rsa -b 4096 -f path/to/<some>.key -C "<description>"
+$ ssh-keygen -a 100 -t ed25519 -f path/to/<some>.key -C "<description>"
 ```
 
 ---
