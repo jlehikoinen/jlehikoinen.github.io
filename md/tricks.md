@@ -24,7 +24,21 @@ Get disk identifier:
 
 `$ diskutil list`
 
+_APFS_
+
 Output example:
+
+```
+...
+2:                 Apple_APFS Container disk1         49.2 GB    disk0s2
+...
+```
+
+Resize partition to 60 GB:
+
+`$ diskutil apfs resizeContainer disk0s2 60g`
+
+_HFS+_
 
 ```
 ...
@@ -32,19 +46,9 @@ Output example:
 ...
 ```
 
-Resize partition to 50 GB:
-
-_APFS_
-
-`$ diskutil apfs resizeContainer disk1s2 50g`
-
-_HFS+_
-
 `$ diskutil resizeVolume disk1s2 50G`
 
 Resize partition to it's maximum size:
-
-_HFS+_
 
  `$ diskutil resizeVolume disk1s2 R`
 
