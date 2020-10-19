@@ -114,7 +114,7 @@ Replace Windows line feeds with UNIX line feeds:
 Find last 5 photos & videos imported from Nikon (DSC_XXXX.JPG/MOV):
 
 ```bash
-$ find . -type f -name "DSC_*" -print0 | xargs -0 stat -f "%m %Sm %SN" -t "%d.%m.%Y %H:%M" | sort -nr | cut -d " " -f 2- | head -5
+$ find . -type f -iname "DSC_*" -print0 | xargs -0 stat -f "%m %Sm %SN" -t "%d.%m.%Y %H:%M" | sort -nr | cut -d " " -f 2- | head -5
 ```
 
 Example output:
