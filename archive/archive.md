@@ -14,6 +14,11 @@ iOS
 
 * [Finnish Traffic Notifications](./md/traffic.md)
 
+Misc
+----
+
+* [Photo Management](./md/photo_management.md)
+
 Swift
 -----
 

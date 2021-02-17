@@ -22,7 +22,6 @@ macOS
 Misc
 ----
 
-* [Photo Management](./md/photo_management.md)
 * [Apple Links](./md/apple_links.md)
 
 FinMacAdmin material
