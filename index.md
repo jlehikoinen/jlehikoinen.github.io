@@ -9,27 +9,15 @@ Command line
 * [CLI Stash](./md/tricks.md)
 * [CLI Tools for Photo Management](./md/clitools_for_photo_management.md)
 
-Docker
-------
-
-* [Docker & MunkiReport](./md/docker-toolbox-munkireport.md)
-* [Docker: Python & MySQL playground](https://github.com/jlehikoinen/mysql-playground)
-
 iOS
 ---
 
-* [Finnish Traffic Notifications](./md/traffic.md)
 * [Workflows](./md/workflow_app.md)
 
 macOS
 ----
 
 * [pkgutil](./md/pkgutil.md)
-
-Swift
------
-
-* [Swift REPL in Docker container (GitHub)](https://github.com/jlehikoinen/swift-repl)
 
 Misc
 ----
@@ -43,5 +31,9 @@ FinMacAdmin material
 * [Utilizing Git in Mac Admin Chores](./md/utilizing_git_admin_chores.md)
 * [FinMacAdmin 2017](https://github.com/macadminfi/finmacadmin2017)
 
+Archive
+-----
+
+* [Archive](./archive/archive.md)
 
 ---
