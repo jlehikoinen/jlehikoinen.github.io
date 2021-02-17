@@ -1,7 +1,7 @@
 Technical Notes Stashed
 =======================
 
-> Personal archive of macOS, iOS, Docker, Unix etc. notes
+> Personal archive of macOS and other notes
 
 Command line
 ------------
