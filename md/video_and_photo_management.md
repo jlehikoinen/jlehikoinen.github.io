@@ -4,10 +4,10 @@ _Posted: 11.06.2021_
 
 ---
 
-Here's my photo (and video) management setup.
+Here's my personal home video and photo management setup. No code available to share yet, sorry..
 
 ## Setup
 
-
+WIP
 
 ---
