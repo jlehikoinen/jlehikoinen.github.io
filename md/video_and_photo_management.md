@@ -24,8 +24,9 @@ Here are two old iterations:
 
 ### Components
 
-- Python script which 
-    - uses Dropbox API to move photos and videos from Camera Uploads folder to `year-month` folders
+- [Dropbox Pro](https://www.dropbox.com/upgrade) for cloud storage
+- Python script that 
+    - uses Dropbox API to move photos and videos from Dropbox `Camera Uploads` folder to `year-month` folders based on file metadata
     - sends push notification using [Pushover](https://pushover.net)
 - bash script that 
     - clones Dropbox photo and video folders to external disk using `rsync`
