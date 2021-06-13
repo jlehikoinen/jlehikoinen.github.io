@@ -59,13 +59,13 @@ Detail view:
 
 - Enumerates files in photo and video folders
 - Gets photo and video metadata using Core Graphics APIs
-- [LocationIQ](https://locationiq.com) API for reverse geocoding photo location
-- Diffs contents of existing json file and enumerated metadata or creates a new json file
+- Utilizes [LocationIQ](https://locationiq.com) API for reverse geocoding photo location
+- Diffs contents of existing json file and enumerated metadata and updates json file if needed
 
 ### Apple TV app
 
 - uses TVMLKit framework
-- downloads json blob from web server
+- downloads json file from the web server
 - displays photos and videos using TVMLKit templates
 
 ### Excerpt of json metadata file
@@ -109,7 +109,7 @@ Detail view:
 
 ## Future iterations
 
-- Port TVMLKit code to SwiftUI so it can be used with iPads etc.
+- Port Apple TV app TVMLKit code to SwiftUI so it can be used with iPads etc.
 - Run scripts and tools more frequently => "when needed"
 
 ---
