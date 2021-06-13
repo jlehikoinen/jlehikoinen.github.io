@@ -4,11 +4,9 @@ _Posted: 11.06.2021_
 
 ---
 
-(Add screenshots of 3 different views)
-
 Here's my personal home video and photo management setup.
 
-This Xth iteration of photo management solution. The current setup has been in use for about two years.
+This Xth iteration of my home video and photo management solution. The current setup has been in use for about two years.
 
 Here are two old iterations:
 
@@ -22,7 +20,23 @@ Here are two old iterations:
 
 ## Solution
 
-### Components
+Custom Apple TV app, web server and various homegrown tools and scripts. 🍌
+
+### Apple TV app screenshots
+
+Year view:
+
+![Year view](../pics/appletv_year.png)
+
+Month view:
+
+![Month view](../pics/appletv_month.png)
+
+Detail view:
+
+![Detail view](../pics/appletv_detail.png)
+
+## Components
 
 - [Dropbox Pro](https://www.dropbox.com/upgrade) for cloud storage
 - Python script that 
@@ -35,26 +49,26 @@ Here are two old iterations:
 - Apache web server running on Mac mini
 - Apple TV app for displaying photos and videos
 
-#### create_thumbnails.zsh
+### create_thumbnails.zsh
 
 - Enumerates files in video folders
 - Creates directory tree if needed
 - Uses `qlmanage` command line tool to create thumbnails of videos
 
-#### Swift command line tool
+### Swift command line tool
 
 - Enumerates files in photo and video folders
 - Gets photo and video metadata using Core Graphics APIs
 - [LocationIQ](https://locationiq.com) API for reverse geocoding photo location
 - Diffs contents of existing json file and enumerated metadata or creates a new json file
 
-#### Apple TV app
+### Apple TV app
 
 - uses TVMLKit framework
 - downloads json blob from web server
 - displays photos and videos using simple UI
 
-#### Excerpt of json metadata file
+### Excerpt of json metadata file
 
 ```
 [
@@ -91,10 +105,11 @@ Here are two old iterations:
 
 ## Hardware
 
-- Mac mini which runs the web server and all the previously mentioned tools ans scripts using LaunchDaemons on a daily/nightly basis
+- Mac mini which runs the web server and all the previously mentioned tools and scripts using LaunchDaemons on a daily/nightly basis
 
 ## Future iterations
 
 - Port TVMLKit code to SwiftUI so it can be used with iPads etc.
+- Run scripts and tools more frequently => "when needed"
 
 ---
