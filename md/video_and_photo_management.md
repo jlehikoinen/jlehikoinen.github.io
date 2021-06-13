@@ -12,15 +12,17 @@ This Xth iteration of photo management solution. The current setup has been in u
 
 Here are two old iterations:
 
-- [Version 1](../archive/md/photo_management.md)
-- [Version 2](../archive/md/photo_management_v1.md)
+- [Version 1](../archive/md/photo_management_v1.md)
+- [Version 2](../archive/md/photo_management.md)
 
 ## Problem: How to watch 4k home videos with Apple TV? Easy enough UI for kids?
 
 - iCloud photos doesn't support 4k videos and is slow even with 1080p videos
 - Most of the NAS media viewing solutions are too difficult for kids to use
 
-## Components
+## Solution
+
+### Components
 
 - Python script which 
     - uses Dropbox API to move photos and videos from Camera Uploads folder to `year-month` folders
@@ -32,26 +34,26 @@ Here are two old iterations:
 - Apache web server running on Mac mini
 - Apple TV app for displaying photos and videos
 
-### create_thumbnails.zsh
+#### create_thumbnails.zsh
 
 - Enumerates files in video folders
 - Creates directory tree if needed
 - Uses `qlmanage` command line tool to create thumbnails of videos
 
-### Swift command line tool
+#### Swift command line tool
 
 - Enumerates files in photo and video folders
 - Gets photo and video metadata using Core Graphics APIs
 - [LocationIQ](https://locationiq.com) API for reverse geocoding photo location
 - Diffs contents of existing json file and enumerated metadata or creates a new json file
 
-### Apple TV app
+#### Apple TV app
 
 - uses TVMLKit framework
 - downloads json blob from web server
 - displays photos and videos using simple UI
 
-### Excerpt of json metadata file
+#### Excerpt of json metadata file
 
 ```
 [
@@ -88,7 +90,7 @@ Here are two old iterations:
 
 ## Hardware
 
-- Mac mini which runs the web server and all the previously mentioned tools ans scripts using LaunchDaemons
+- Mac mini which runs the web server and all the previously mentioned tools ans scripts using LaunchDaemons on a daily/nightly basis
 
 ## Future iterations
 
