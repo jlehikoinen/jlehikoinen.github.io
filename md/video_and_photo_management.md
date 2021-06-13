@@ -4,18 +4,16 @@ _Posted: 11.06.2021_
 
 ---
 
-Here's my personal home video and photo management setup.
-
-This Xth iteration of my home video and photo management solution. The current setup has been in use for about two years.
+Here's my personal home video and photo management setup. This is the Xth iteration of my home video and photo management solution. The current setup has been in use for about two years. I haven't published any source code about the current solution because there are too many dependencies. Maybe someday?
 
 Here are two old iterations:
 
 - [Version 1](../archive/md/photo_management_v1.md)
 - [Version 2](../archive/md/photo_management.md)
 
-## Problem: How to watch 4k home videos with Apple TV? Easy enough UI for kids?
+## Problem: How to watch 4K home videos with Apple TV? Easy enough UI for kids?
 
-- iCloud photos doesn't support 4k videos and is slow even with 1080p videos
+- iCloud Photos on Apple TV doesn't support 4K resolution and is slow even with 1080p videos
 - Most of the NAS media viewing solutions are too difficult for kids to use
 
 ## Solution
@@ -38,16 +36,16 @@ Detail view:
 
 ## Components
 
-- [Dropbox Pro](https://www.dropbox.com/upgrade) for cloud storage
+- [Dropbox Plus](https://www.dropbox.com/plus) for cloud storage
 - Python script that 
     - uses Dropbox API to move photos and videos from Dropbox `Camera Uploads` folder to `year-month` folders based on file metadata
-    - sends push notification using [Pushover](https://pushover.net)
+    - sends info via push notification using [Pushover](https://pushover.net)
 - bash script that 
     - clones Dropbox photo and video folders to external disk using `rsync`
     - runs `create_thumbnails.zsh` script that creates thumbnails of videos
     - runs Swift command line tool `DboxMediaHelper` that creates a json file of photo and video metadata
 - Apache web server running on Mac mini
-- Apple TV app for displaying photos and videos
+- Custom Apple TV app for displaying photos and videos
 
 ### create_thumbnails.zsh
 
@@ -66,7 +64,7 @@ Detail view:
 
 - uses TVMLKit framework
 - downloads json blob from web server
-- displays photos and videos using simple UI
+- displays photos and videos using TVMLKit templates
 
 ### Excerpt of json metadata file
 
@@ -105,7 +103,7 @@ Detail view:
 
 ## Hardware
 
-- Mac mini which runs the web server and all the previously mentioned tools and scripts using LaunchDaemons on a daily/nightly basis
+- Mac mini which runs a web server and all the previously mentioned tools and scripts using LaunchDaemons on a daily/nightly basis
 
 ## Future iterations
 
