@@ -1,10 +1,12 @@
 # Home video and photo management solution
 
-_Posted: 11.06.2021_
+_Posted: 13.06.2021_
 
 ---
 
-Here's my personal home video and photo management setup. This is the Xth iteration of my home video and photo management solution. The current setup has been in use for about two years. I haven't published any source code about the current solution because there are too many dependencies. Maybe someday?
+Here's my personal home video and photo management setup. This is the Xth iteration of my home video and photo management solution. The current setup has been in use for about two years. 
+
+I haven't published any source code about the current solution because there are too many dependencies and it would require a lot work to make it even remotely generic and usable for somebody else. Maybe someday?
 
 Here are two old iterations:
 
@@ -22,7 +24,7 @@ Custom Apple TV app, web server and various homegrown tools and scripts. 🍌
 
 ### Apple TV app screenshots
 
-Year view:
+Year & month view:
 
 ![Year view](../pics/appletv_year.png)
 
@@ -44,7 +46,7 @@ Detail view:
     - clones Dropbox photo and video folders to external disk using `rsync`
     - runs `create_thumbnails.zsh` script that creates thumbnails of videos
     - runs Swift command line tool `DboxMediaHelper` that creates a json file of photo and video metadata
-- Apache web server running on Mac mini
+- Apache web server running on a Mac mini
 - Custom Apple TV app for displaying photos and videos
 
 ### create_thumbnails.zsh
