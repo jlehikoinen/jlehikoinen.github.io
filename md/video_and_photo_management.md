@@ -1,12 +1,14 @@
 # Home video and photo management solution
 
-_Posted: 13.06.2021_
+_Posted: 11.06.2021_
+
+_Updated: 14.06.2021_
 
 ---
 
-Here's my personal home video and photo management setup. This is the Xth iteration of my home video and photo management solution. The current setup has been in use for about two years. 
+Here's an overview of my home video and photo management setup. This is the Xth iteration for the management solution that I've been buiding for several years. The current setup has been in use for about two years. 
 
-I haven't published any source code about the current solution because there are too many dependencies and it would require a lot work to make it even remotely generic and usable for somebody else. Maybe someday?
+I haven't published most of the source code about the current solution because there are too many dependencies and it would require a lot work to make it even remotely generic and usable for somebody else. Maybe someday?
 
 Here are two old iterations:
 
@@ -42,6 +44,7 @@ Detail view:
 - Python script that 
     - uses Dropbox API to move photos and videos from Dropbox `Camera Uploads` folder to `year-month` folders based on file metadata
     - sends info via push notification using [Pushover](https://pushover.net)
+    - is based on this previous [Python](https://github.com/jlehikoinen/db-mover/blob/master/db_mover.py) script
 - bash script that 
     - clones Dropbox photo and video folders to external disk using `rsync`
     - runs `create_thumbnails.zsh` script that creates thumbnails of videos
