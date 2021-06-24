@@ -43,7 +43,7 @@ Detail view:
 - [Dropbox Plus](https://www.dropbox.com/plus) for cloud storage
 - Python script that 
     - uses Dropbox API to move photos and videos from Dropbox `Camera Uploads` folder to `year-month` folders based on file metadata
-    - sends info via push notification using [Pushover](https://pushover.net)
+    - sends info via [push notification](../pics/pushover.png) using [Pushover](https://pushover.net)
     - is based on this previous [Python](https://github.com/jlehikoinen/db-mover/blob/master/db_mover.py) script
 - bash script that 
     - clones Dropbox photo and video folders to external disk using `rsync`
