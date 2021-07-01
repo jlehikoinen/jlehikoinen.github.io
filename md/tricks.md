@@ -1,7 +1,7 @@
 Command line stash
 ==================
 
-_Updated: 05.10.2020_
+_Updated: 01.07.2021_
 
 Tricks & one-liners
 -------------------
@@ -106,6 +106,14 @@ Replace Windows line feeds with UNIX line feeds:
 ```bash
 :%s/^M/\r/g
 ```
+
+---
+
+### ag tricks
+
+Use [`ag`](https://github.com/ggreer/the_silver_searcher) to find `.download.recipe` files that don't contain `codesignatureverifier` string:
+
+`$ ag -G ".download.recipe$" -ilv codesignatureverifier path/to/recipes`
 
 ---
 
