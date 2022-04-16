@@ -2,6 +2,8 @@
 
 _Updated: 16.04.2022_
 
+Summat iOS app.
+
 (Link to the app will be added later.)
 
 ---
