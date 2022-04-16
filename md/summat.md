@@ -18,6 +18,6 @@ Summat app does not collect any personal information or connect to the internet.
 
 ## Contact information
 
-If you have any questions or concerns, please feel free to contact us at [feedback@miltei.net](feedback@miltei.net).
+If you have any questions or concerns, please feel free to contact us at [feedback@miltei.net](mailto:feedback@miltei.net).
 
 ---
