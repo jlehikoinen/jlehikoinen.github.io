@@ -1,4 +1,4 @@
-# Summat
+# Summat iOS app
 
 _Updated: 16.04.2022_
 
