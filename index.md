@@ -2,6 +2,10 @@
 
 > Personal archive of macOS and other notes
 
+## Summat iOS app
+
+* [Summat](./md/summat.md)
+
 ## Command line
 
 * [CLI Stash](./md/tricks.md)
