@@ -2,7 +2,7 @@
 
 > Personal archive of macOS and other notes
 
-## Summat iOS app
+## iOS apps
 
 * [Summat](./md/summat.md)
 

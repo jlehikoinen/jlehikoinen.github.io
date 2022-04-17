@@ -4,7 +4,7 @@ _Updated: 16.04.2022_
 
 Summat iOS app.
 
-(Link to the app will be added later.)
+[Summat app in App Store](https://apps.apple.com/app/summat/id1618708533)
 
 ---
 
