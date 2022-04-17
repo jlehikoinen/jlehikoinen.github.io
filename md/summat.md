@@ -1,6 +1,6 @@
 # Summat iOS app
 
-_Updated: 16.04.2022_
+_Updated: 17.04.2022_
 
 Summat iOS app.
 
