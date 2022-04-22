@@ -1,12 +1,12 @@
 # Summat iOS app
 
-_Updated: 17.04.2022_
+_Updated: 22.04.2022_
 
 Summat is a game companion and easy sum calculator mainly for kids.
 
 It's built using SwiftUI and Core Data is used for persistent data storage.
 
-[Summat app in App Store](https://apps.apple.com/app/summat/id1618708533)
+(App Store link will be added later)
 
 ---
 
