@@ -15,16 +15,10 @@
 
 * [Home video and photo management solution](./md/video_and_photo_management.md)
 
-## iOS
-
-* [Workflows](./md/workflow_app.md)
-
-## macOS
-
-* [pkgutil](./md/pkgutil.md)
-
 ## Misc
 
+* [pkgutil](./md/pkgutil.md)
+* [Workflows](./md/workflow_app.md)
 * [Apple Links](./md/apple_links.md)
 
 ## FinMacAdmin material
