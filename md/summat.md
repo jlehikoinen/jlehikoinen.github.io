@@ -9,6 +9,7 @@ It's built using SwiftUI and Core Data is used for persistent data storage.
 [Summat in App Store](https://apps.apple.com/app/summat/id1620488295)
 
 [Summat in GitHub](https://github.com/jlehikoinen/Summat)
+
 ---
 
 ## Privacy Policy
