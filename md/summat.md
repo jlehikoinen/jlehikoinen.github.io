@@ -1,6 +1,6 @@
 # Summat iOS app
 
-_Updated: 19.12.2022_
+_Updated: 08.03.2023_
 
 Summat is a game companion and easy sum calculator mainly for kids.
 
@@ -22,6 +22,6 @@ Summat app does not collect any personal information or connect to the internet.
 
 ## Contact information
 
-If you have any questions or concerns, please feel free to contact us at [feedback@miltei.net](mailto:feedback@miltei.net).
+If you have any questions or concerns, please feel free to contact us at [jl@lehi.fi](mailto:jl@lehi.fi).
 
 ---
