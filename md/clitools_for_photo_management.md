@@ -28,10 +28,16 @@ $ exiftool "-fileModifyDate<DateTimeOriginal" targetimage.jpg
 
 ### One-liners for batch editing
 
-Copy DateTimeOriginal value to FileModifyDate:
+Copy `DateTimeOriginal` value to `FileModifyDate`:
 
 ```bash
-$ for c in *.JPG; do exiftool "-fileModifyDate<DateTimeOriginal" "$c"; done
+$ for c in *.MP4; do exiftool "-fileModifyDate<CreateDate" "$c"; done
+```
+
+Copy `CreateDate` value to `FileModifyDate` (GoPro edition):
+
+```bash
+$ for c in *.MP4; do exiftool "-fileModifyDate<CreateDate" "$c"; done
 ```
 
 Copy all video metadata from original file (.MOV) to target file (.mp4):
